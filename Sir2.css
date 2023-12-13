@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Mulish&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*code*/
+
+header{
+    height: 100vh;
+    position: relative;
+}
+.victor{
+    position: absolute;
+    bottom: 95.21px;
+    z-index: 1;
+    margin-left: 73.11px;
+}
+.verev{
+    height: 132px;
+    background-color: #FFCC4A;
+}
+.verev-logo{
+    height: 83.5px;
+    width: 434.33px;
+}
+.nerqev{
+    height: calc(100% - 132px);
+    background-color: #4EAF4E;
+    padding-left: 30px;
+}
+.nerqev-text{
+    width: 397px;
+    height: 88px;
+    left: 73px;
+    margin-left: 73.11px;
+    color: #FFFFFF;
+    font-family: mulish;
+    font-size: 35px;
+     font-weight: 400;
+    line-height: 44px;
+}
+
+.nshan{
+    left: 73px;
+    height: 65px;
+    width: 374.47px;
+    font-family: Mulish;
+}   
+
+.logo-1{
+    width:374.47px;
+    height: 65px;
+    margin-top: 43px;
+    display: inline-block;
+    margin-left: 73.11px;
+}
+.logo2{
+    width: 214.81px;
+    height: 90.45px;
+    margin-left: 73.11px;
+   margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .follow h1{
+    width: 117px;
+height: 30px;
+top: 1115px;
+left: 59.73px;
+color: #0D161A;
+;
+ }
+
+.left_a{
+    margin-left: 60px;
+}
+
+.nkartext{
+    display: flex;
+   
+}
+.follow{
+    line-height: 30px;
+   
+}
+.follow h1{
+    line-height: 49.62px;
+    width: 117px;
+height: 30px;
+top: 1115px;
+left: 59.73px;
+color: #0D161A;
+
+
+}
+.victorflow-{
+    width: 131px;
+    height: 30px;
+    top: 972px;
+    left: 181.25px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+.victorflow_text{
+    width: 202px;
+    height: 48px;
+    top: 1010.31px;
+    left: 181.11px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.instagram{
+    display: flex;
+    line-height: 26px;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.mi_tox{
+    display: flex;
+    gap: 45px;
+    
+}
+.instagram img{
+top: 1190px;
+left: 59.73px;
+
+
+}
+.insta{
+    width: 98px;
+    height: 24px;
+    top: 1171px;
+    left: 154.73px;
+}
+.instagram_a{
+    color:#0D161A;
+  
+
+}
+.slaq{
+    width: 12px;
+height: 12.01px;
+top: 1179px;
+left: 262.73px;
+
+
+
+}
+
+.mi_tox{
+    display: flex;
+}
+.instagram_text{
+    width: 385px;
+height: 44px;
+top: 1205px;
+left: 154.73px;
+color: #646E79;
+
+
+}
+
+.twitter{
+    display: flex;
+    line-height: 26px;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.twitter_nkar{
+    display: flex;
+top: 1296px;
+left: 59.73px;
+}
+.slaq2{
+    width: 12px;
+    height: 12.01px;
+    top: 1179px;
+    left: 262.73px;
+margin-left: 5px;
+    
+}
+.twit{
+    width: 474px;
+height: 78px;
+top: 1279px;
+left: 59.73px;
+margin-left: 35px;
+
+}
+.twitter_nkar{
+    width: 385px;
+height: 44px;
+top: 1313px;
+left: 148.73px;
+color:  #646E79;
+display: flex;
+
+}
+.twitter_a{
+    color: #0D161A;
+}
+
+.linkedin{
+    display: flex;
+    line-height: 26px;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.in{
+    width: 50px;
+height: 50px;
+top: 1406px;
+left: 59.73px;
+display: flex;
+
+
+}
+.in_a{
+    color: #0D161A;
+}
+.intext{
+    width: 82px;
+height: 24px;
+top: 1387px;
+left: 154.73px;
+margin-left: 43px;
+
+}
+.slaq3{
+    width: 12px;
+    height: 12.01px;
+    top: 1179px;
+    left: 262.73px;
+margin-left: 5px;
+}
+.in_text{
+    width: 385px;
+height: 44px;
+top: 1421px;
+left: 154.73px;
+color:  #646E79;
+
+}
+
+
+
+
+
+
+
+.nerqev_n{
+margin-top: 105px;
+margin-left: 60px;
+line-height: 48px;
+}
+.images{
+top: 1570px;
+left: 63.73px;
+color:  #202020;
+
+}
+.pexels{
+    display: flex;
+}
+.pexel_in{
+top: 1659px;
+left: 115.73px;
+color: #000000;
+margin-left: 11px;
+}
+.pexel_text{
+    line-height: 20px;
+top: 1708px;
+left: 59.73px;
+color: #646E79;
+margin-top: 25px;
+}
+.pexel_link{
+    color: #000000;
+
+}
+.unsplash{
+    display: flex;
+    margin-top: 30px;
+}
+.unspl{
+top: 1797px;
+left: 115.73px;
+margin-left: 11px;
+color:  #000000;
+
+}
+.unsplash_text{
+    line-height: 20px;
+top: 1846px;
+left: 59.73px;
+color: #646E79;
+margin-top: 25px;
+}
+.unsp_link{
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container{
+   margin-left: 50%;
+}
+.font{
+  color: #202020;
+  
+
+}
+.cabin{
+display: flex;
+    width: 45px;
+    height: 35.08px;
+    margin-top: 30px;
+
+}
+.cabin_link{
+  color:  #000000;
+margin-left: 11px;
+
+
+}
+.cabin_text{
+line-height: 20px;
+margin-top: 25px;
+color: #646E79;
+
+}
+.google_fonts{
+    color:  #000000;
+}
+
+
+
+
+
+.container2{
+    margin-left: 50%;
+
+}
+.lato{
+    display: flex;
+    
+
+}
+.lato_nkar{
+   
+    width: 45px;
+height: 35.08px;
+top: 1648px;
+left: 578.73px;
+
+}
+
+.lato_link{
+ color: #000000;
+margin-left: 11px;
+
+}
+.lato_text{
+    color: #646E79;
+    line-height: 20px;
+    margin-top: 25px;
+}
+.google_fonts2{
+    color: #000000;
+}
+    
